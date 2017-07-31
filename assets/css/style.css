@@ -1,192 +1,103 @@
-*{
-	padding:0;
-	margin:0;
-	box-sizing: border-box;
-	outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*Global Style */
-img{
-	width:200px;
-	height: 200px;
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
-button{
-	padding: 10px;
-	border:none;
-	border-radius: 4px;
-	background-color: red;
-	color: #fff;
-	width: 70px;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-	cursor: pointer;
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-input{
-	width:90%;
-	padding: 10px;
-	margin:10px;
-	border:1px solid rgba(0, 0, 0, 0.5);
-	border-radius: 4px;
-}
-
-/*General Style*/
-header, body, footer{
-	width:100%;
-	margin-top:20px;
-}
-
-header{
-	border:1px solid green;
-	height: 100px;
-	text-align: center;
-}
-
-.about-me, .one{
+.links {
 	display: flex;
+	justify-content: flex-end;
 }
 
-
-
-
-/*First section in the body*/
-.about-me{
-	justify-content: space-between;
-
+.github {
+	margin-left: 20px;
 }
 
-.about-me div{
-	width:340px;
-	height: 200px;
-	border:1px solid rgba(0, 0, 0, 0.5);
-	margin:10px;
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
 }
 
-.one{
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
 
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  align-items: center;
+}
 
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
 
+.first-item {
+	order: 1;
+}
 
+.last-item {
+	order: -1;
+}
 
-/* Second Section in the body*/
-.more-info{
-	background-color: grey;
+.social, .subscribe {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three {
 	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.info-image{
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
+.linkedin {
+	margin-left: auto;
 }
-
-
-.info-image p{
-	width:500px;
-}
-
-
-/*This is the third section in HTML and CSS*/
-
-.send-shipping{
-	display: flex;
-	justify-content: space-between;
-}
-
-.send-shipping div{
-	border:1px solid rgba(0, 0, 0, 0.5);
-	width:50%;
-	height: 300px;
-	margin:10px;
-
-}
-
-.send-shipping .input-data{
-	height: 200px;
-}
-
-
-.two{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-
-
-/*This is the fourth with the quote*/
-.send-shipping .quote{
-	border:1px solid rgba(0, 0, 0, 0.5);
-	width: 55%;
-	height: 400px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-.send-shipping .not-quote{
-	width: 45%;
-	height: 400px;
-
-}
-
-
-
-/*This is the fifth section in the body*/
-
-.send-shipping  .input-data{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	border:none;
-
-}
-
-.send-shipping  .input-data div{
-	border:none;
-}
-
-/*This is the footer section*/
-/*
-footer{
-	border:1px solid orange;
-	height: 100px;
-	position: absolute;
-	bottom: 0;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
